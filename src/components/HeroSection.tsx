@@ -98,7 +98,7 @@ const HeroSection = () => {
           >
             🔔
           </motion.span>
-          <span>🎄</span>
+          {/* <span>🎄</span> */}
           <motion.span
             animate={{ rotate: [15, -15, 15] }}
             transition={{ duration: 0.5, repeat: Infinity, repeatDelay: 2 }}
